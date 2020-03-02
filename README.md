@@ -6,7 +6,7 @@ In this assignment, you are given a dataset of single speaker audio files. Your 
 For more details, please click [this link](https://docs.google.com/presentation/d/1C2a1_V91EHjy3sgxy3rKWqU6hCIOOsbMWuOhYCZW5jQ) to view the slides of HW1.
 
 ### Start
-Please create your own private Github repo to host your files. The repo name should be `hw1-speech-recognition'. And you repo link will be `https://github.com/<YOUR_GITHUB_ID>/hw1-speech-recognition`. After that, your **MUST** register <YOUR_GITHUB_ID> with this form [https://forms.gle/G7LohptsqnxFkpWc9](https://forms.gle/G7LohptsqnxFkpWc9), and add [TA's github account](#) to the repo colaborator, or we cannot receive your submission.
+Please create your own private Github repo to host your files. The repo name should be `hw1-speech-recognition`. And you repo link will be `https://github.com/<YOUR_GITHUB_ID>/hw1-speech-recognition`. After that, your **MUST** register `<YOUR_GITHUB_ID>` with [this form](https://forms.gle/G7LohptsqnxFkpWc9), and add [TA's github account](#) to the repo collaborator, or we cannot receive your submission.
 
 ### Dataset
 In the starter code of this repository, we have provided a shell script for downloading and extracting the dataset for this assignment. For Linux users, simply use the following command.
@@ -73,11 +73,11 @@ We will run your code in the following manner:
 where `$1` is the audio dataset directory (e.g. `data/DLHLP`), and `$2` is name of the output prediction csv file (e.g. `ans.csv` ).
 
 ### Packages
-In `pip-freeze.txt` is a list of packages you are allowed to import in this assignment.
+In [`pip-freeze.txt`](https://github.com/DLHLP2020/hw1-speech-recognition/pip-freeze.txt) is a list of packages you are allowed to import in this assignment.
 
 If you only use the machine in 計中, all packages are installed, you don't need to do any thing.
 
-Note that using packages with different versions will very likely lead to compatibility issues when we reproduce your results. If you use your own computer, make sure that you install the correct version as listed in `pip-freeze.txt`. E-mail or ask the TAs first if you want to import other packages.
+Note that using packages with different versions will very likely lead to compatibility issues when we reproduce your results. If you use your own computer, make sure that you install the correct version as listed in [`pip-freeze.txt`](https://github.com/DLHLP2020/hw1-speech-recognition/pip-freeze.txt). E-mail or ask the TAs first if you want to import other packages.
 
 ### Remarks
 - If your model is larger than GitHub’s maximum capacity (100MB), you can upload your model to another cloud service (e.g. Dropbox). However, your shell script files should be able to download the model automatically. For a tutorial on how to do this using Dropbox, please click [this link](https://docs.google.com/presentation/d/1SsIeIij9ZOEN_TGdbAS1oWcI6bT1uSTI6b5__u2wdDc/edit?usp=sharing).
