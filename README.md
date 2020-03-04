@@ -6,16 +6,15 @@ In this assignment, you are given a dataset of single speaker audio files. Your 
 For more details, please click [this link](https://docs.google.com/presentation/d/1C2a1_V91EHjy3sgxy3rKWqU6hCIOOsbMWuOhYCZW5jQ) to view the slides of HW1.
 
 ### Start
-Please create your own private Github repo to host your files. The repo name should be `hw1-speech-recognition`. And you repo link will be `https://github.com/<YOUR_GITHUB_ID>/hw1-speech-recognition`. After that, your **MUST** register `<YOUR_GITHUB_ID>` with [this form](https://forms.gle/G7LohptsqnxFkpWc9), and add [TA's github account](#) to the repo collaborator, or we cannot receive your submission.
+Please create your own private Github repo to host your files. The repo name should be `DLHLP2020-SPRING`. And you repo link will be `https://github.com/<YOUR_TEAM_GITHUB_ID>/DLHLP2020-SPRING`. After that, your **MUST** register `<YOUR_TEAM_GITHUB_ID>` with [this form](https://forms.gle/G7LohptsqnxFkpWc9), and add TA's github account (DLHLP2020-TA) to the repo collaborator, or we cannot receive your submission.
 
 ### Dataset
-In the starter code of this repository, we have provided a shell script for downloading and extracting the dataset for this assignment. For Linux users, simply use the following command.
+In this repository, we have provided a shell script for downloading and extracting the dataset for this assignment. For Linux users, simply use the following command.
 
     bash ./get_dataset.sh
 The shell script will automatically download the dataset and store the data in a folder called `data/DLHLP/`. Note that this command by default only works on Linux. If you are using other operating systems, you should download the dataset from [this link](https://docs.google.com/uc?export=download&id=1daFU8tPPUyhN7Fc6JUTohEfHXIn6ZDgq) and unzip the compressed file manually.
 
-> ⚠️  ***Warning*** ⚠️  
-> You should keep a copy of the dataset only in your local machine. **DO NOT** upload the dataset to this remote repository. If you extract the dataset manually, be sure to put them in a folder called `data/` under the root directory of your local repository so that it will be included in the default `.gitignore` file.
+You should keep a copy of the dataset only in your local machine. **DO NOT** upload the dataset to this remote repository. If you extract the dataset manually, be sure to put them in a folder called `data/` under the root directory of your local repository so that it will be included in the default `.gitignore` file.
 
 ### Submission Format
 
@@ -81,7 +80,5 @@ Note that using packages with different versions will very likely lead to compat
 - If your model is larger than GitHub’s maximum capacity (100MB), you can upload your model to another cloud service (e.g. Dropbox). However, your shell script files should be able to download the model automatically. For a tutorial on how to do this using Dropbox, please click [this link](https://docs.google.com/presentation/d/1SsIeIij9ZOEN_TGdbAS1oWcI6bT1uSTI6b5__u2wdDc/edit?usp=sharing).
 
 # Q&A
-If you have any problems related to HW1, you may
-- Use TA hours (please check [course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html) for time/location)
+- Comment your question in [this post](https://www.facebook.com/notes/deep-learning-for-human-language-processing-2020spring/hw1-qa/792120354630460/)
 - Contact TAs by e-mail ([dlhlp.ta@gmail.com](mailto:dlhlp.ta@gmail.com))
-- Post your question in the comment section of [this post](https://www.facebook.com/notes/deep-learning-for-human-language-processing-2020spring/hw1-qa/792120354630460/)
