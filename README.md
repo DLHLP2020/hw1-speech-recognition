@@ -64,11 +64,12 @@ python3 eval_wer.py ans.dev.csv <predict_csv_file>
 2020/03/25(Wed) before class
 
 ### File Submission Format
-Aside from your own Python scripts and model files, you should make sure that your submission includes *at least* the following files in the root directory of this repository:
+Your should includes the following files in the `hw1/` directory of this repository:
  1.   `report.pdf`  
 The report of your homework assignment. Refer to the "*Report Questions*" section in the slides for what you should include in the report.
  2.   `reproduce.sh`  
-The shell script file for running your ASR model. The produced answer should be the same as the best submitted file on kaggle. If the score is not matched, you would lost the 5 points on kaggle.
+The shell script file for running your ASR model. The produced answer should be the same as the best submitted file on kaggle public leaderboard. If the score is not matched, you would lost the 5 points on kaggle.
+ 3.   other code or models you used.
 
 We will run your code in the following manner:
 
