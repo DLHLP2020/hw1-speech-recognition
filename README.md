@@ -75,8 +75,6 @@ where `$1` is the audio dataset directory (e.g. `data/DLHLP`), and `$2` is name 
 ### Packages
 In [`pip-freeze.txt`](https://github.com/DLHLP2020/hw1-speech-recognition/blob/master/pip-freeze.txt) is a list of packages you are allowed to import in this assignment.
 
-If you only use the machine in 計中, all packages are installed, you don't need to do any thing.
-
 Note that using packages with different versions will very likely lead to compatibility issues when we reproduce your results. If you use your own computer, make sure that you install the correct version as listed in [`pip-freeze.txt`](https://github.com/DLHLP2020/hw1-speech-recognition/blob/master/pip-freeze.txt). E-mail or ask the TAs first if you want to import other packages.
 
 ### Remarks
@@ -86,4 +84,4 @@ Note that using packages with different versions will very likely lead to compat
 If you have any problems related to HW1, you may
 - Use TA hours (please check [course website](http://speech.ee.ntu.edu.tw/~tlkagk/courses_DLHLP20.html) for time/location)
 - Contact TAs by e-mail ([dlhlp.ta@gmail.com](mailto:dlhlp.ta@gmail.com))
-- Post your question in the comment section of [this post](https://www.facebook.com/groups/789568188219010)
+- Post your question in the comment section of [this post](https://www.facebook.com/notes/deep-learning-for-human-language-processing-2020spring/hw1-qa/792120354630460/)
